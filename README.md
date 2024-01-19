@@ -28,6 +28,9 @@ programador de qualquer nível
 
 # Execução do projeto
 
-Acesse o caminho :
-docker e execute o comando docker-compose -f bycorders-production.yaml up
+Acesse a pasta docker e execute o comando: 
+docker-compose up 
+
+Após execução será possível acessar o swagger 
+http://localhost:7002/swagger/index.html
 
