@@ -1,0 +1,14 @@
+version: "3"
+
+services:  
+  api-transacoes:
+    image: desafio-localiza-backend-veiculos:latest
+    container_name: desafio-localiza-backend-veiculos
+    build:
+      context: ../src
+      dockerfile: ./Localiza.Veiculos.API/Dockerfile
+    ports: 
+      - "7002:7002"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://*:7002
