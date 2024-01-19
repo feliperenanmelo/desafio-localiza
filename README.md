@@ -5,10 +5,10 @@ O projeto Localiza.Veiculos.Api consiste em controlar o fluxo de locação de um
 
 Estados
 
-1 - Disponivel
-2 - Alugado
-3 - EmManutencao
-4 - Desativo
+1 - Disponivel  
+2 - Alugado  
+3 - EmManutencao  
+4 - Desativo  
 
 # Api desenvolvida utilizando NET 6.0 
 
@@ -26,7 +26,7 @@ se baseando no status atual do veículo, isso me permite aplicar o OCP (solid) c
 serão criados novos strategies, o código fica simples com poucas linhas, de fácil entendimento pela escolha dos nomes das variavéis e métodos, provendo rápidez em mudanças por qualquer 
 programador de qualquer nível
 
-#Execução do projeto
+# Execução do projeto
 
 Acesse o caminho :
 docker e execute o comando docker-compose -f bycorders-production.yaml up
